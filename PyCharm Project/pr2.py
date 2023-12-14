@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import sys
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Ввести список одной строкой.
     a = list(map(int, input().split()))
     # Если список пуст, завершить программу.
@@ -22,7 +22,7 @@ if __name__ == '__main__':
         i_min, i_max = i_max, i_min
     # Посчитать количество положительных элементов.
     count = 0
-    for item in a[i_min+1:i_max]:
+    for item in a[i_min + 1 : i_max]:
         if item > 0:
             count += 1
     print(count)
